@@ -24,6 +24,9 @@
 .DS_Store
 *.pem
 
+# large media (served from public/ but tracked via LFS or excluded)
+src/app/*.mp4
+
 # debug
 npm-debug.log*
 yarn-debug.log*
