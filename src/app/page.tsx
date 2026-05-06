@@ -93,7 +93,7 @@ export default function Home() {
             playsInline
             className="h-full w-full object-cover"
           >
-            <source src="/map_animation.mp4" type="video/mp4" />
+            <source src="/map_animation_blurred.mp4" type="video/mp4" />
           </video>
           <div className="absolute inset-0 bg-white/92" />
         </div>
@@ -171,7 +171,7 @@ export default function Home() {
                 </span>
               </h2>
               <p className="mt-6 text-lg leading-relaxed text-text-secondary">
-                PREDROI is our AI-augmented urban decision platform — predicting
+                PREDROI is our urban decision platform — predicting
                 return on investment across financial, environmental, and social
                 dimensions for municipal development strategies.
               </p>
