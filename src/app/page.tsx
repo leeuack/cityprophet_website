@@ -180,13 +180,13 @@ export default function Home() {
 
           {/* Platform demo video */}
           <ScrollReveal delay={100}>
-            <div className="relative mx-auto mt-16 max-w-4xl overflow-hidden rounded-3xl border border-surface-border bg-black p-1 shadow-2xl shadow-brand-coral/5">
+            <div className="relative mx-auto mt-16 max-w-5xl overflow-hidden rounded-3xl border border-surface-border shadow-2xl shadow-brand-coral/5">
               <video
                 autoPlay
                 loop
                 muted
                 playsInline
-                className="w-full rounded-2xl"
+                className="block w-full"
               >
                 <source src="/demo_website_calgary.mp4" type="video/mp4" />
               </video>
