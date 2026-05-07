@@ -191,6 +191,9 @@ export default function Home() {
                 <source src="/demo_website_calgary.mp4" type="video/mp4" />
               </video>
             </div>
+            <p className="mt-2 text-center text-xs text-text-secondary/60">
+              * This city uses simulated data for demonstration purposes only.
+            </p>
             <div className="mt-6 text-center">
               <a
                 href="https://predroi.cityprophet.com"
