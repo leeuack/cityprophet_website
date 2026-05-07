@@ -188,7 +188,7 @@ export default function Home() {
                 playsInline
                 className="w-full rounded-2xl"
               >
-                <source src="/demo_website.mp4" type="video/mp4" />
+                <source src="/demo_website_calgary.mp4" type="video/mp4" />
               </video>
             </div>
             <div className="mt-6 text-center">
