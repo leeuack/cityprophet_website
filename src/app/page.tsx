@@ -605,102 +605,34 @@ export default function Home() {
 
       {/* ═══════════ CONTACT ═══════════ */}
       <section id="contact" className="bg-background-alt py-28 lg:py-36">
-        <div className="mx-auto max-w-6xl px-6">
-          <div className="grid items-start gap-16 lg:grid-cols-2">
-            <ScrollReveal>
-              <div>
-                <p className="text-sm font-semibold uppercase tracking-[0.3em] text-brand-coral">
-                  Contact
-                </p>
-                <h2 className="mt-4 text-3xl font-bold text-text-primary sm:text-4xl">
-                  Get in Touch
-                </h2>
-                <p className="mt-6 text-base leading-relaxed text-text-secondary">
-                  Interested in learning how City PRoPH+ET can support your
-                  municipality&apos;s urban development strategy? Reach out to
-                  schedule a demo or discuss your needs.
-                </p>
-
-                <div className="mt-10 space-y-5">
-                  <div className="flex items-center gap-4">
-                    <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-brand-coral/10">
-                      <Mail className="h-5 w-5 text-brand-coral" />
-                    </div>
-                    <div>
-                      <p className="text-xs font-medium text-text-tertiary">
-                        Email
-                      </p>
-                      <p className="text-sm font-semibold text-text-primary">
-                        admin@cityprophet.com
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </ScrollReveal>
-
-            <ScrollReveal delay={150}>
-              <form
-                action="mailto:admin@cityprophet.com"
-                method="POST"
-                encType="text/plain"
-                className="space-y-5 rounded-2xl border border-surface-border bg-white p-8 shadow-sm"
-              >
-                <div className="grid gap-5 sm:grid-cols-2">
-                  <div>
-                    <label className="mb-1.5 block text-xs font-semibold text-text-secondary">
-                      Name
-                    </label>
-                    <input
-                      type="text"
-                      className="w-full rounded-lg border border-surface-border bg-white px-4 py-2.5 text-sm text-text-primary outline-none transition-colors focus:border-brand-coral/40"
-                      placeholder="Your name"
-                    />
-                  </div>
-                  <div>
-                    <label className="mb-1.5 block text-xs font-semibold text-text-secondary">
-                      Organization
-                    </label>
-                    <input
-                      type="text"
-                      className="w-full rounded-lg border border-surface-border bg-white px-4 py-2.5 text-sm text-text-primary outline-none transition-colors focus:border-brand-coral/40"
-                      placeholder="City / Municipality"
-                    />
-                  </div>
-                </div>
-                <div>
-                  <label className="mb-1.5 block text-xs font-semibold text-text-secondary">
-                    Email
-                  </label>
-                  <input
-                    type="email"
-                    className="w-full rounded-lg border border-surface-border bg-white px-4 py-2.5 text-sm text-text-primary outline-none transition-colors focus:border-brand-coral/40"
-                    placeholder="you@city.gov"
-                  />
-                </div>
-                <div>
-                  <label className="mb-1.5 block text-xs font-semibold text-text-secondary">
-                    Message
-                  </label>
-                  <textarea
-                    rows={4}
-                    className="w-full resize-none rounded-lg border border-surface-border bg-white px-4 py-2.5 text-sm text-text-primary outline-none transition-colors focus:border-brand-coral/40"
-                    placeholder="Tell us about your urban development goals..."
-                  />
-                </div>
-                <button
-                  type="submit"
-                  className="w-full rounded-lg py-3 text-sm font-semibold text-white transition-all duration-300 hover:opacity-90"
-                  style={{
-                    background:
-                      "linear-gradient(135deg, #D64C7E 0%, #E07848 100%)",
-                  }}
-                >
-                  Send Message
-                </button>
-              </form>
-            </ScrollReveal>
-          </div>
+        <div className="mx-auto max-w-4xl px-6 text-center">
+          <ScrollReveal>
+            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-brand-coral">
+              Contact
+            </p>
+            <h2 className="mt-4 text-3xl font-bold text-text-primary sm:text-4xl">
+              Get in Touch
+            </h2>
+            <p className="mt-6 text-base leading-relaxed text-text-secondary">
+              Interested in learning how City PRoPH+ET can support your
+              municipality&apos;s urban development strategy? Reach out to
+              schedule a demo or discuss your needs.
+            </p>
+            <a
+              href="mailto:admin@cityprophet.com"
+              className="mt-10 inline-flex items-center gap-3 rounded-full px-8 py-4 text-sm font-semibold text-white transition-all duration-300 hover:opacity-90 hover:scale-[1.02]"
+              style={{
+                background:
+                  "linear-gradient(135deg, #D64C7E 0%, #E07848 100%)",
+              }}
+            >
+              <Mail className="h-5 w-5" />
+              Contact Us
+            </a>
+            <p className="mt-4 text-sm text-text-tertiary">
+              admin@cityprophet.com
+            </p>
+          </ScrollReveal>
         </div>
       </section>
 
