@@ -631,7 +631,7 @@ export default function Home() {
                         Email
                       </p>
                       <p className="text-sm font-semibold text-text-primary">
-                        contact@cityprophet.com
+                        admin@cityprophet.com
                       </p>
                     </div>
                   </div>
