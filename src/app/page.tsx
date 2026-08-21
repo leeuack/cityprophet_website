@@ -641,7 +641,9 @@ export default function Home() {
 
             <ScrollReveal delay={150}>
               <form
-                onSubmit={(e) => e.preventDefault()}
+                action="mailto:admin@cityprophet.com"
+                method="POST"
+                encType="text/plain"
                 className="space-y-5 rounded-2xl border border-surface-border bg-white p-8 shadow-sm"
               >
                 <div className="grid gap-5 sm:grid-cols-2">
